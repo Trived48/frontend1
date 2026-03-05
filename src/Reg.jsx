@@ -30,7 +30,7 @@ function Reg()
     }
     return(
         <>
-            <h1>iam App</h1>
+            <h1><h2>Register Page</h2></h1>
             <input type="text" onChange={changeName} name="username" placeholder="enter username"/>
             <input type="email" onChange={changeName} name="email" placeholder="enter email"/>
             <input type="password" onChange={changeName} name="password" placeholder="enter password"/>
